@@ -3,7 +3,7 @@
 h1, h2 {font-family: 'Playfair Display', serif; color:#c89f9c;}
 body, .dropbtn {font-family: 'Quicksand', sans-serif; background-color:#edede9;}
 .flex-container {display: flex; flex-wrap: wrap; justify-content: center; }
-.card1, .card2, .card3, .card4, .card5, .card6 {
+.card1, .card2, .card3, .card4, .card5, .card6, .card7, .card8, .card9, .card10n11, .card12, .card14{
 	width: 500px;
 	padding: 10px 150px 20px 80px;
 	background: #e4e2e2;
@@ -23,7 +23,7 @@ body, .dropbtn {font-family: 'Quicksand', sans-serif; background-color:#edede9;}
 	padding-top: 25px;
 }
 
-.dropbtn {
+.dropbtn, .a {
 	background-color: whitesmoke;
 	color: #c89f9c;
 	border-color: #c89f9c;
