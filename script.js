@@ -20,3 +20,12 @@ function phonenumber() {
   }
   document.getElementById("demo").innerHTML = text;
 }
+
+function scrollFunction1() {
+        let e = document.getElementById("week");
+        e.scrollIntoView({
+          block: 'start',
+          behavior: 'smooth',
+          inline: 'start'
+        });
+      }
