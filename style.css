@@ -17,7 +17,7 @@ body, .dropbtn {font-family: 'Quicksand', sans-serif; background-color:#edede9;}
   	width: 180px;
 	position: fixed;
 	top: 0;
-	right: 50px;
+	left: 50px;
 	background-color: #c89f9c;
 	padding: 15px;
 	padding-top: 25px;
@@ -69,3 +69,5 @@ input[id="numb"], input[type="submit"], input[type="text"], button, script {
 	color: white;
 	opacity: 50%;
   }
+
+  animation-center {position:center;}
