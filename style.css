@@ -1,14 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&family=Quicksand&display=swap');
 
 h1, h2 {font-family: 'Playfair Display', serif; color:#c89f9c;}
-body {font-family: 'Quicksand', sans-serif; background-color:#edede9;}
-.flex-container {display: flex; flex-wrap: wrap; justify-content: center;}
+body, .dropbtn {font-family: 'Quicksand', sans-serif; background-color:#edede9;}
+.flex-container {display: flex; flex-wrap: wrap; justify-content: center; }
 .card1, .card2, .card3, .card4, .card5, .card6 {
-	width: auto;
-	padding: 10px 30px;
+	width: 500px;
+	padding: 10px 150px 20px 80px;
 	background: #e4e2e2;
     border-radius: 10px;
-    margin: 20px;}
+    margin: 30px;
+	margin-left: 210px;
+	}
+
+.nav {
+	height: 100%;
+  	width: 190px;
+	position: fixed;
+	top: 0;
+	left: 50px;
+	background-color: #c89f9c;
+	padding: 15px;
+	padding-top: 25px;
+}
 
 .dropbtn {
 	background-color: whitesmoke;
@@ -19,7 +32,7 @@ body {font-family: 'Quicksand', sans-serif; background-color:#edede9;}
 	background: #e4e2e2;
     border-radius: 10px;
 	margin: 20px 0 0 20px;
-	position: fixed;}
+	}
 	  
 .dropdown {
 	position: relative;
@@ -28,7 +41,7 @@ body {font-family: 'Quicksand', sans-serif; background-color:#edede9;}
 .dropdown-content {
 	display: none;
 	position: absolute;
-	background-color: #c89f9c56;
+	background-color: #c89f9cbc;
 	min-width: 160px;
 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	z-index: 1;}
