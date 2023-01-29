@@ -7,3 +7,16 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         });
     });
 });
+
+function phonenumber() {
+  // Get the value of the input field with id="numb"
+  let x = document.getElementById("numb").value;
+  // If x is Not a Number or less than one or greater than 10
+  let text;
+  if (isNaN(x) || x < 9999999 || x > 100000000) {
+    text = "Invalid!";
+  } else {
+    text = "Will contact you soon~";
+  }
+  document.getElementById("demo").innerHTML = text;
+}
